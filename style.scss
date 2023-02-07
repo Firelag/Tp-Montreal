@@ -238,6 +238,54 @@ body{
                         cursor: pointer;
                         
                 }
+                #prenom{
+                    display : block;
+
+                    padding : 10px;
+                    margin  : 10px 0 0 0px;
+                    width   : 800px;
+                    border: 1px solid $texte;
+                  
+                    resize  : none;
+                    overflow: auto;
+                    margin-bottom: 20%;
+                }
+                #name{
+                    display : block;
+                    border: 1px solid $texte;
+                    padding : 10px;
+                    margin  : 10px 0 0 0px;
+                    width   : 800px;
+                    
+                  
+                    resize  : none;
+                    overflow: auto;
+                    margin-bottom: 20%;
+                }
+                #option{
+                    display : block;
+                    border: 1px solid $texte;
+                    padding : 10px;
+                    margin  : 10px 0 0 0px;
+                    width   : 820px;
+                    background-color: $form;
+                  
+                    resize  : none;
+                    overflow: auto;
+                    margin-bottom: 20%;
+                }
+                #msg{
+                    display : block;
+                    border: 1px solid $texte;
+                    padding : 10px;
+                    margin  : 10px 0 0 0px;
+                    width   : 800px;
+                    height  : 150px;
+                  
+                    resize  : none;
+                    overflow: auto;
+                    margin-bottom: 20%;
+                }
             }
             
         }

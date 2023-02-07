@@ -202,6 +202,48 @@ body .section7 .formulaire .form1 .bouton {
   border: 2px solid #FFDA00;
   cursor: pointer;
 }
+body .section7 .formulaire .form1 #prenom {
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  width: 800px;
+  border: 1px solid #FFDA00;
+  resize: none;
+  overflow: auto;
+  margin-bottom: 20%;
+}
+body .section7 .formulaire .form1 #name {
+  display: block;
+  border: 1px solid #FFDA00;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  width: 800px;
+  resize: none;
+  overflow: auto;
+  margin-bottom: 20%;
+}
+body .section7 .formulaire .form1 #option {
+  display: block;
+  border: 1px solid #FFDA00;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  width: 820px;
+  background-color: #F2F2F2;
+  resize: none;
+  overflow: auto;
+  margin-bottom: 20%;
+}
+body .section7 .formulaire .form1 #msg {
+  display: block;
+  border: 1px solid #FFDA00;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  width: 800px;
+  height: 150px;
+  resize: none;
+  overflow: auto;
+  margin-bottom: 20%;
+}
 body .section8 {
   background-color: #FFDA00;
   padding-top: 5%;
