@@ -137,15 +137,14 @@ body .section5 .marge h3 {
   color: #FFDA00;
   font-size: 2em;
 }
-body .section5 .wrap {
+body .section5 .warp {
   display: flex;
   flex-wrap: wrap;
 }
-body .section5 .wrap img {
-  width: 80%;
-}
 body .section6 {
   background-color: #17191E;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 body .section6 .marge {
   width: 80%;
@@ -153,4 +152,25 @@ body .section6 .marge {
 }
 body .section6 .marge h3 {
   color: #FFDA00;
+  font-size: 2em;
+}
+body .section6 .marge p {
+  color: #FFDA00;
+}
+body .section6 .logo {
+  display: flex;
+  justify-content: space-around;
+}
+body .section7 {
+  width: 80%;
+  margin: auto;
+}
+body .section7 h4 {
+  color: #FFDA00;
+}
+body .section7 .formulaire {
+  background-color: #F2F2F2;
+}
+body .section7 .formulaire form {
+  width: 15%;
 }/*# sourceMappingURL=style.css.map */
