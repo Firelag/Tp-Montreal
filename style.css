@@ -66,20 +66,16 @@ body .section3 {
 }
 body .section3 .flex {
   display: flex;
+  justify-content: space-between;
+}
+body .section3 .flex .groupe {
+  width: 30%;
 }
 body .section3 .flex .groupe i {
   background-color: #FFDA00;
   padding: 3%;
 }
 body .section3 .flex .groupe h2 {
-  color: #FFDA00;
-  font-size: 4em;
-}
-body .section3 .flex .groupe1 i {
-  background-color: #FFDA00;
-  padding: 5%;
-}
-body .section3 .flex .groupe1 h2 {
   color: #FFDA00;
   font-size: 4em;
 }
@@ -97,4 +93,10 @@ body .section3 .boutonc .bouton2 {
   color: black;
   border: 2px solid #FFDA00;
   cursor: pointer;
+}
+body .section4 {
+  background-color: #17191E;
+}
+body .section4 .groupe1 {
+  color: #FFDA00;
 }/*# sourceMappingURL=style.css.map */
