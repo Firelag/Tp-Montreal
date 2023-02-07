@@ -135,7 +135,7 @@ body .section5 .marge {
 }
 body .section5 .marge h3 {
   color: #FFDA00;
-  font-size: 2em;
+  font-size: 3em;
 }
 body .section5 .warp {
   display: flex;
@@ -152,7 +152,7 @@ body .section6 .marge {
 }
 body .section6 .marge h3 {
   color: #FFDA00;
-  font-size: 2em;
+  font-size: 3em;
 }
 body .section6 .marge p {
   color: #FFDA00;
@@ -164,13 +164,68 @@ body .section6 .logo {
 body .section7 {
   width: 80%;
   margin: auto;
+  padding-bottom: 5%;
 }
 body .section7 h4 {
   color: #FFDA00;
+  font-size: 3em;
 }
 body .section7 .formulaire {
   background-color: #F2F2F2;
+  padding-bottom: 5%;
 }
-body .section7 .formulaire form {
+body .section7 .formulaire .form1 {
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+body .section7 .formulaire .form1 form {
   width: 15%;
+}
+body .section7 .formulaire .form1 .bouton {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #FFDA00;
+  color: white;
+  border: 2px solid #FFDA00;
+  cursor: pointer;
+}
+body .section8 {
+  background-color: #FFDA00;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+body .section8 .centre {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+body .section8 .centre .back {
+  display: flex;
+}
+body .section8 .centre .back p {
+  width: 40%;
+}
+body .section8 .centre .back i {
+  background-color: black;
+  color: white;
+}
+body footer {
+  background-color: #17191E;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+body footer .color {
+  color: #FFDA00;
+}
+body footer .social {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 20%;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

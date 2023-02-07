@@ -161,7 +161,7 @@ body{
             margin: auto;
             h3{
                 color: $texte;
-                font-size: 2em;
+                font-size: 3em;
             }
         }
        
@@ -185,7 +185,7 @@ body{
             margin: auto;
             h3{
                 color: $texte;
-                font-size: 2em;
+                font-size: 3em;
             }
             p{
                 color: $texte;
@@ -200,15 +200,79 @@ body{
     .section7{
         width: 80%;
         margin: auto;
+        padding-bottom: 5%;
         h4{
             color: $texte;
+            font-size: 3em;
         }
 
         .formulaire{
             background-color: $form;
-            form{
-                width: 15%;
+            padding-bottom: 5%;
+            .form1{
+                width: 80%;
+                margin: auto;
+                padding-top: 5%;
+                form{
+                    width: 15%;
+                }
+                .bouton{
+                    font-size: 15px;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                        background-color: $texte;
+                        color: white;
+                        border: 2px solid $texte;
+                        cursor: pointer;
+                        
+                }
             }
+            
+        }
+    }
+
+    .section8{
+        background-color: $texte;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .centre{
+            display: flex;
+            width: 80%;
+            margin: auto;
+            justify-content: space-evenly;
+            
+
+            .back{
+                display: flex;
+                
+                p{
+                    width: 40%;
+                }
+                
+                i{
+                    background-color: black;
+                    color:white ;
+                    
+                }
+            }
+        }
+    }
+
+    footer{
+        background-color: $fond;
+        color: white;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        .color{
+            color: $texte;
+        }
+        .social{
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+            width: 20%;
+            margin: auto;
         }
     }
 }
