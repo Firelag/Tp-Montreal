@@ -1,0 +1,29 @@
+@import "variables";
+
+
+body{
+    nav{
+        background-color: $fond;
+        .navi{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            #myLinks{
+                display: none;
+                color: white;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            .icon{
+                background-color: $texte;
+                i{
+                    color: white;
+                }
+            }
+        }
+       
+        
+    }
+}

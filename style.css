@@ -1,1 +1,22 @@
-/*# sourceMappingURL=style.css.map */
+body nav {
+  background-color: #17191E;
+}
+body nav .navi {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+body nav .navi #myLinks {
+  display: none;
+  color: white;
+}
+body nav .navi #myLinks a {
+  text-decoration: none;
+  color: white;
+}
+body nav .navi .icon {
+  background-color: #FFDA00;
+}
+body nav .navi .icon i {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
