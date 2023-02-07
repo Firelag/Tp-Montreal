@@ -13,16 +13,30 @@ body header nav .navi {
 body header nav .navi #myLinks {
   display: none;
   color: white;
+  align-self: center;
 }
-body header nav .navi #myLinks a {
+body header nav .navi #myLinks .flexx {
+  display: flex;
+}
+body header nav .navi #myLinks .flexx a {
   text-decoration: none;
   color: white;
 }
 body header nav .navi .icon {
   background-color: #FFDA00;
+  align-self: center;
+  padding: 1em;
+  position: absolute;
+  right: 10%;
 }
 body header nav .navi .icon i {
   color: white;
+}
+body header nav .navi .icon:hover {
+  background-color: white;
+}
+body header nav .navi .icon:hover i {
+  background-color: black;
 }
 body .section1 {
   background-color: #17191E;
@@ -96,8 +110,8 @@ body .section3 .boutonc .bouton2 {
 }
 body .section4 {
   background-color: #17191E;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 body .section4 .flex {
   display: flex;
@@ -107,5 +121,36 @@ body .section4 .flex {
   text-align: center;
 }
 body .section4 .flex .groupe1 {
+  color: #FFDA00;
+}
+body .section4 .flex .groupe1 #compteur {
+  font-size: 3em;
+}
+body .section5 {
+  margin-top: 10%;
+}
+body .section5 .marge {
+  width: 80%;
+  margin: auto;
+}
+body .section5 .marge h3 {
+  color: #FFDA00;
+  font-size: 2em;
+}
+body .section5 .wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .section5 .wrap img {
+  width: 80%;
+}
+body .section6 {
+  background-color: #17191E;
+}
+body .section6 .marge {
+  width: 80%;
+  margin: auto;
+}
+body .section6 .marge h3 {
   color: #FFDA00;
 }/*# sourceMappingURL=style.css.map */

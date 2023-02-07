@@ -7,22 +7,42 @@ body{
     header{
         nav{
             background-color: $fond;
+            
             .navi{
                 width: 80%;
                 margin: auto;
                 display: flex;
+                
                 #myLinks{
                     display: none;
                     color: white;
-                    a{
-                        text-decoration: none;
-                        color: white;
+                    align-self: center;
+                    
+                    .flexx{
+                        display: flex;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            
+                        }
                     }
+                   
                 }
                 .icon{
                     background-color: $texte;
+                    align-self: center;
+                    padding: 1em;
+                    position: absolute;
+                    right: 10%;
                     i{
                         color: white;
+                    }
+                    
+                }
+                .icon:hover{
+                    background-color: white;
+                    i{
+                        background-color: black;
                     }
                 }
             }
@@ -116,8 +136,8 @@ body{
 
     .section4{
         background-color: $fond;
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 6%;
+        padding-bottom: 6%;
         .flex{
             display: flex;
             justify-content: space-between;
@@ -126,8 +146,43 @@ body{
             text-align: center;
             .groupe1{
                 color: $texte;
+                #compteur{
+                    font-size: 3em;
+                }
             }
         }
         
+    }
+
+    .section5{
+        margin-top: 10%;
+        .marge{
+            width: 80%;
+            margin: auto;
+            h3{
+                color: $texte;
+                font-size: 2em;
+            }
+        }
+       
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+    .section6{
+        background-color: $fond;
+        .marge{
+            width: 80%;
+            margin: auto;
+            h3{
+                color: $texte;
+            }
+        }
     }
 }
