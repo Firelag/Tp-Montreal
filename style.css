@@ -14,6 +14,7 @@ body header nav .navi #myLinks {
   display: none;
   color: white;
   align-self: center;
+  margin: auto;
 }
 body header nav .navi #myLinks .flexx {
   display: flex;
@@ -126,6 +127,15 @@ body .section4 .flex .groupe1 {
 body .section4 .flex .groupe1 #compteur {
   font-size: 3em;
 }
+body .section4 .flex .groupe1 #compteur1 {
+  font-size: 3em;
+}
+body .section4 .flex .groupe1 #compteur2 {
+  font-size: 3em;
+}
+body .section4 .flex .groupe1 #compteur3 {
+  font-size: 3em;
+}
 body .section5 {
   margin-top: 10%;
 }
@@ -181,6 +191,7 @@ body .section7 .formulaire .form1 {
 }
 body .section7 .formulaire .form1 form {
   width: 15%;
+  border-color: #FFDA00;
 }
 body .section7 .formulaire .form1 .bouton {
   font-size: 15px;

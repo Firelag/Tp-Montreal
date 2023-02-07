@@ -17,6 +17,7 @@ body{
                     display: none;
                     color: white;
                     align-self: center;
+                    margin: auto;
                     
                     .flexx{
                         display: flex;
@@ -146,7 +147,17 @@ body{
             text-align: center;
             .groupe1{
                 color: $texte;
+                
                 #compteur{
+                    font-size: 3em;
+                }
+                #compteur1{
+                    font-size: 3em;
+                }
+                #compteur2{
+                    font-size: 3em;
+                }
+                #compteur3{
                     font-size: 3em;
                 }
             }
@@ -215,6 +226,7 @@ body{
                 padding-top: 5%;
                 form{
                     width: 15%;
+                    border-color: $texte;
                 }
                 .bouton{
                     font-size: 15px;

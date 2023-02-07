@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="home">
             <div class="navi">
                 <img src="./assets/Logo.png.png" alt="logo">
         
@@ -20,9 +20,9 @@
             <!-- Navigation links (hidden by default) -->
             <div id="myLinks">
                 <div class="flexx">
-                <a href="#">HOME</a>
-                <a href="#">PORTFOLIO</a>
-                <a href="#">CONTACT</a>
+                <a href="#home">HOME</a>
+                <a href="#port">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
                 </div>
               
             </div>
@@ -92,17 +92,17 @@
             </div>
             <div class="groupe1">
                 <i class="fa fa-coffee" aria-hidden="true"></i>
-                <p id="compteur">0</p>
+                <p id="compteur1">0</p>
                 <p>DRINKED COFFEE</p>
             </div>
             <div class="groupe1">
                 <i class="fa fa-pencil" aria-hidden="true"></i>
-                <p id="compteur">0</p>
+                <p id="compteur2">0</p>
                 <p>MAILS SEND</p>
             </div>
             <div class="groupe1">
                 <i class="fa fa-heart-o" aria-hidden="true"></i>
-                <p id="compteur">0</p>
+                <p id="compteur3">0</p>
                 <p>AWARDS TAKEN</p>
             </div>
         </div>
@@ -110,7 +110,7 @@
     </section>
 
 <!-- section 5 -->
-    <section class="section5">
+    <section class="section5" id="port">
         <div class="marge">
             <h3>WORK SO FAR ...</h3>
             <p>Congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
@@ -143,19 +143,19 @@
 
 
 <!-- section 7 -->
-    <section class="section7">
+    <section class="section7" id="contact">
         <h4>CONTACT US ...</h4>
         <p>Congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
         <div class="formulaire">
             <div class="form1">
                 <form action="/ma-page-de-traitement" method="post">
                     <div>
-                        <label for="name">Prénom :</label>
-                        <input type="text" id="prenom" name="user_prenom">
+                        <label for="name">Prénom</label>
+                        <input type="text" id="prenom" name="user_prenom" placeholder="Votre prénom">
                     </div>
                     <div>
-                        <label for="name">Nom :</label>
-                        <input type="text" id="name" name="user_name">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="user_name" placeholder="Votre nom">
                     </div>
                     <div>
                         <label for="option">Objet</label>
