@@ -116,8 +116,18 @@ body{
 
     .section4{
         background-color: $fond;
-        .groupe1{
-            color: $texte;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            width: 70%;
+            margin: auto;
+            text-align: center;
+            .groupe1{
+                color: $texte;
+            }
         }
+        
     }
 }
