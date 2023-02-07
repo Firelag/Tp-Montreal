@@ -216,9 +216,6 @@ body .section8 .centre {
 body .section8 .centre .back {
   display: flex;
 }
-body .section8 .centre .back p {
-  width: 40%;
-}
 body .section8 .centre .back i {
   background-color: black;
   color: white;
