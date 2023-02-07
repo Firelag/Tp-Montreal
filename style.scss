@@ -2,28 +2,71 @@
 
 
 body{
-    nav{
-        background-color: $fond;
-        .navi{
-            width: 80%;
-            margin: auto;
-            display: flex;
-            #myLinks{
-                display: none;
-                color: white;
-                a{
-                    text-decoration: none;
+    margin: 0;
+    font-family: Abel;
+    header{
+        nav{
+            background-color: $fond;
+            .navi{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                #myLinks{
+                    display: none;
                     color: white;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                .icon{
+                    background-color: $texte;
+                    i{
+                        color: white;
+                    }
                 }
             }
-            .icon{
-                background-color: $texte;
-                i{
-                    color: white;
-                }
-            }
-        }
+    }
+    
        
         
+    }
+
+    .section1{
+        background-color: $fond;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        .center{
+            width: 80%;
+            margin: auto;
+
+            h1{
+                color: $texte;
+                font-size: 7em;
+                width: 60%;
+            }
+            p{
+                color: white;
+            }
+            .bouton1{
+                font-size: 15px;
+                    padding: 10px 15px;
+                    border-radius: 20px;
+                    background-color: $fond;
+                    color: white;
+                    border: 2px solid $texte;
+                    cursor: pointer;
+            }
+        }
+    }
+
+    .section2{
+        background-color: $texte;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        p{
+            width: 70%;
+            margin: auto;
+        }
     }
 }

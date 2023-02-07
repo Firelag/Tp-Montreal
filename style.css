@@ -1,22 +1,61 @@
-body nav {
+body {
+  margin: 0;
+  font-family: Abel;
+}
+body header nav {
   background-color: #17191E;
 }
-body nav .navi {
+body header nav .navi {
   width: 80%;
   margin: auto;
   display: flex;
 }
-body nav .navi #myLinks {
+body header nav .navi #myLinks {
   display: none;
   color: white;
 }
-body nav .navi #myLinks a {
+body header nav .navi #myLinks a {
   text-decoration: none;
   color: white;
 }
-body nav .navi .icon {
+body header nav .navi .icon {
   background-color: #FFDA00;
 }
-body nav .navi .icon i {
+body header nav .navi .icon i {
   color: white;
+}
+body .section1 {
+  background-color: #17191E;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+body .section1 .center {
+  width: 80%;
+  margin: auto;
+}
+body .section1 .center h1 {
+  color: #FFDA00;
+  font-size: 7em;
+  width: 60%;
+}
+body .section1 .center p {
+  color: white;
+}
+body .section1 .center .bouton1 {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #17191E;
+  color: white;
+  border: 2px solid #FFDA00;
+  cursor: pointer;
+}
+body .section2 {
+  background-color: #FFDA00;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+body .section2 p {
+  width: 70%;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
