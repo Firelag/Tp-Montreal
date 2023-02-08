@@ -104,6 +104,7 @@ body .section3 .flex .groupe {
 @media (max-width: 768px) {
   body .section3 .flex .groupe {
     width: 100%;
+    margin-top: 15%;
   }
 }
 body .section3 .flex .groupe i {
@@ -259,6 +260,16 @@ body .section7 .formulaire .form1 #prenom {
     width: 200px;
   }
 }
+@media (max-width: 1100px) {
+  body .section7 .formulaire .form1 #prenom {
+    width: 600px;
+  }
+}
+@media (max-width: 900px) {
+  body .section7 .formulaire .form1 #prenom {
+    width: 400px;
+  }
+}
 body .section7 .formulaire .form1 #name {
   display: block;
   border: 1px solid #FFDA00;
@@ -272,6 +283,16 @@ body .section7 .formulaire .form1 #name {
 @media (max-width: 768px) {
   body .section7 .formulaire .form1 #name {
     width: 200px;
+  }
+}
+@media (max-width: 1100px) {
+  body .section7 .formulaire .form1 #name {
+    width: 600px;
+  }
+}
+@media (max-width: 900px) {
+  body .section7 .formulaire .form1 #name {
+    width: 400px;
   }
 }
 body .section7 .formulaire .form1 #option {
@@ -290,6 +311,16 @@ body .section7 .formulaire .form1 #option {
     width: 220px;
   }
 }
+@media (max-width: 1100px) {
+  body .section7 .formulaire .form1 #option {
+    width: 620px;
+  }
+}
+@media (max-width: 900px) {
+  body .section7 .formulaire .form1 #option {
+    width: 420px;
+  }
+}
 body .section7 .formulaire .form1 #msg {
   display: block;
   border: 1px solid #FFDA00;
@@ -304,6 +335,16 @@ body .section7 .formulaire .form1 #msg {
 @media (max-width: 768px) {
   body .section7 .formulaire .form1 #msg {
     width: 200px;
+  }
+}
+@media (max-width: 1100px) {
+  body .section7 .formulaire .form1 #msg {
+    width: 600px;
+  }
+}
+@media (max-width: 900px) {
+  body .section7 .formulaire .form1 #msg {
+    width: 400px;
   }
 }
 body .section8 {
@@ -324,6 +365,7 @@ body .section8 .centre {
 }
 body .section8 .centre .back {
   display: flex;
+  margin-top: 10%;
 }
 body .section8 .centre .back i {
   background-color: black;
